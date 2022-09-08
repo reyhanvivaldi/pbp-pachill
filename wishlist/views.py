@@ -7,7 +7,7 @@ from wishlist.models import BarangWishlist
 data_barang_wishlist = BarangWishlist.objects.all()
 context = {
     'list_barang': data_barang_wishlist,
-    'nama': 'Kak Cinoy'
+    'nama': 'Kak Reyhan Vivaldi'
 }
 
 def show_wishlist(request):
