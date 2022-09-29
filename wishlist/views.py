@@ -77,4 +77,7 @@ def logout_user(request):
     response.delete_cookie('last_login')
     return response
 
-
+# Tutorial 4
+def show_bs(request):
+    context = {}
+    return render(request, "index.html", context)
